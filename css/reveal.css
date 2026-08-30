@@ -1,0 +1,68 @@
+:root {
+  --r-heading-font: "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+  --r-body-font: "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+  --r-primary-color: #5b9dff;
+  --r-accent-color: #e07a2f;
+}
+
+.reveal section {
+  text-align: left;
+  font-size: 0.62em;
+  color: #f2f5fb;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.reveal .subtitle {
+  color: #d6deec;
+  font-size: 0.5em;
+}
+
+.reveal ul {
+  display: block;
+}
+
+.reveal .two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+  text-align: left;
+}
+
+.reveal .col h3 {
+  text-align: left;
+  font-size: 0.7em;
+  color: #ffffff;
+}
+
+.reveal .tag {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border-radius: 0.5em;
+  background: var(--r-primary-color);
+  color: #08121f;
+  font-size: 0.4em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.reveal .note {
+  color: #b9c4d4;
+  font-size: 0.45em;
+}
+
+.reveal .footer-note {
+  position: fixed;
+  bottom: 12px;
+  right: 16px;
+  font-size: 0.32em;
+  color: #8a97a8;
+}
+
+.reveal .progress {
+  color: var(--r-accent-color);
+}

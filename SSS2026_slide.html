@@ -1,64 +1,413 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="utf-8">
-    <title>SSS2026 Presentation</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/black.css">
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-        :root {
-            --primary-color: #bcd1e4;
-            --accent-color: #7EC2A8;
-            --qa-bg: #1a1c1f;
-            --qa-border: #38516B;
-        }
-        .reveal { font-family: 'Hiragino Sans', 'Meiryo', sans-serif; }
-        .reveal h1 { font-size: 2.5em; color: var(--primary-color); border-bottom: 3px solid var(--accent-color); padding-bottom: 10px; }
-        .reveal h2 { font-size: 1.8em; color: var(--primary-color); }
-        .reveal h3 { font-size: 1.4em; color: var(--accent-color); }
-        .reveal ul { font-size: 0.8em; text-align: left; display: inline-block; }
-        .qa-section { 
-            background-color: var(--qa-bg); 
-            border-left: 10px solid var(--qa-border); 
-            padding: 20px !important; 
-            border-radius: 8px;
-            text-align: left !important;
-            margin-top: 20px !important;
-        }
-        .qa-section h3 { color: var(--primary-color); margin-top: 0 !important; }
-        .qa-content { font-size: 0.7em !important; }
-        .content-slide { text-align: left !important; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SSS2026 報告</title>
+
+  <!-- reveal.js (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/night.min.css" id="theme">
+  <link rel="stylesheet" href="reveal.css">
 </head>
 <body>
-    <div class="reveal">
-        <div class="slides">
-            <section>
-                <h1>SSS2026 参加報告</h1>
-                <h3>2026/8/19-8/21 @Hirosima Univ</h3>
-            </section>
-            <section>
-                <h1>TiTle </h1>
-                <ul>
-                    <li>a</li>
-                    <li>b</li>
-                </ul>
-            </section>
-    
-            
+<div class="reveal">
+  <div class="slides">
 
+    <!-- ============================================================= -->
+    <!-- 1. タイトルスライド                                           -->
+    <!-- ============================================================= -->
+    <section data-background-gradient="#1f3b6f -> #2a5caa" data-background-color="#1f3b6f">
+      <h1 style="color:#fff;">SSS2026 <span style="font-size:0.55em;">@Hiroshima Univ</span></h1>
+      <p class="subtitle" style="color:#e8eefc;">Summer Symposium in Setouchi 2026<br>2026年8月19日(水) – 21日(金) / 広島大学</p>
+      <p class="note" style="color:#cdd8ee;">※ これはスライドの雛形（テンプレート）です。各スライドの内容・枚数は必要に応じて追加・編集してください。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 2. このイベントについて                                       -->
+    <!-- ============================================================= -->
+    <section>
+      <h2>このイベントについて</h2>
+      <div class="two-col">
+        <div class="col">
+          <span class="tag">What</span>
+          <ul>
+            <li>Setouchi・Techに関する研究の交換会</li>
+            <li>発表・ポスター・パネルディスカッションを含む</li>
+          </ul>
+          <span class="tag">Message</span>
+          <ul>
+            <li>Setouchi・Techを「教える」だけでなく、<br>自由で平和な社会の形成に向けた教育を行う必要があり、<br>新たな知の創造の場としたい</li>
+          </ul>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
-    <script>
-        Reveal.initialize({ 
-            hash: true,
-            controls: true,
-            progress: true,
-            center: true,
-            transition: 'slide'
-        });
-    </script>
+        <div class="col">
+          <span class="tag">When &amp; Where</span>
+          <ul>
+            <li>会期：8/19 – 8/21（3日間）</li>
+            <li>会場：広島大学</li>
+            <li>来年度開催地：仙台（SSS2036）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 3. アジェンダ（タイムライン）                                 -->
+    <!-- ============================================================= -->
+    <section>
+      <h2>全体アジェンダ</h2>
+      <ul style="font-size:0.7em;">
+        <li><strong>8/19</strong> — オープニング（渡辺健次先生）→ セッション1 → 招待公演（奥山晴彦先生）</li>
+        <li><strong>8/20</strong> — セッション2 / 3 / 4 → ポスターセッション → 招待講演2（飯吉透先生）→ パネルディスカッション</li>
+        <li><strong>8/21</strong> — セッション5 / 6 / 7 → クロージング・授賞式</li>
+      </ul>
+      <p class="note">※ 各セッションは「研究（発表）」と「実践（授業報告）」に分かれています。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 4. オープニングセッション                                     -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">8/19 · オープニング</span>
+      <h2>オープニングセッション</h2>
+      <p style="text-align:center;">発表者：渡辺健次 先生</p>
+      <div class="two-col">
+        <div class="col">
+          <span class="tag">テーマ</span>
+          <ul>
+            <li>Setouchi・Techを教えるだけでなく、<br>自由で平和な社会の形成に向けた教育を行う必要性</li>
+            <li>本プログラムを新たな知の創造の場としたい</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 5. セッション1 タイトル                                      -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1.1em;">セッション1（8/19）</h2>
+      <p style="text-align:center;">高校・大学における「情報Ⅰ」の理解度・知識状態・カリキュラム検討</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 6. 例発表：T高校「情報Ⅰ」四領域                              -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">T高校における「情報Ⅰ」四領域に関する理解度と学習認識の検討</h3>
+      <div class="two-col">
+        <div class="col">
+          <h3>背景</h3>
+          <ul style="font-size:0.72em;">
+            <li>これまでの実践報告は各領域焦点型→4領域の横断的研究が不足</li>
+            <li>2025受験生：プログラミングは相対的に有用、NWは苦手<br>（「わからない言葉がわからない言葉で説明される」）</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>結果・課題</h3>
+          <ul style="font-size:0.72em;">
+            <li>「コンピュータとプログラミング」分野は自己評価の高低に関係しやすく、得意・苦手が分かれやすい</li>
+            <li>NWは理解度に関わらず苦手傾向</li>
+            <li>否定的回答（約2割）の生徒への支援・授業外学習時間の確保が課題</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 7. 例発表：大学新入生の知識状態変化                          -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">大学新入生の情報に関する知識状態の情報Ⅰ導入前後での変化</h3>
+      <ul style="font-size:0.75em;">
+        <li>年を追うごとに正答率は増加。減少したのは「わからない」（全エリア共通）→ 高校教育の効果も示唆</li>
+        <li>「情報のデジタル化」はこの傾向が顕著、「情報とコミュニケーション」は緩やか</li>
+        <li>誤答優勢群は「わからない」優勢群より誤答率が高め。「わからない」は分野全体への未理解度の高さを示す</li>
+      </ul>
+      <p class="note">※ Q&A：「わかるようになる」から遠ざかろうとする態度も見られる。成績へのインセンティブがないと答えない学生もいる。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 8. 例発表：高校が大学に求める支援（DXHS）                   -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">高等学校が大学に求める支援に関する検討（DXHSへの調査）</h3>
+      <ul style="font-size:0.75em;">
+        <li>情報の科学を1年で学んだ後、2・3年の空白期間で情報系が選ばれなくなる現象</li>
+        <li>伴走型支援の実践では地方による差が見られた</li>
+      </ul>
+      <p class="note">※ Q&A：文科省の他データでも分析を希望。高校から具体的なニーズがどんなきっかけで出てくるかが関心点。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 9. 例発表：情報教育モデルカリキュラム                        -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">初等中等教育における情報教育モデルカリキュラム策定に向けた検討</h3>
+      <div class="two-col">
+        <div class="col">
+          <h3>学びの柱</h3>
+          <ul style="font-size:0.72em;">
+            <li>情報社会と個人の在り方</li>
+            <li>プログラミング</li>
+            <li>AI</li>
+            <li>制作活動（創りながら考える）</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>目標・設計指針</h3>
+          <ul style="font-size:0.72em;">
+            <li>情報学の定義にもとづいた目標（他者関わり→社会構造→社会課題の解決）</li>
+            <li>知識・技能ベースから、3要素・分野横断的な学びへ再構成する必要</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 10. セッション2 タイトル                                     -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1.1em;">セッション2（8/20）</h2>
+      <p style="text-align:center;">相互教授法・モブプログラミング・学習環境・問題自動生成</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 11. 例発表：再帰構造と相互教授法                            -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">プログラミングの再帰構造の学習における相互教授法の効果の検証</h3>
+      <ul style="font-size:0.75em;">
+        <li>再帰構造は初学者がつまづきやすい（反復との混同など）→ 相互教授法（要約・資料作成・問い設定＋質問活動）を活用</li>
+        <li>tartleを用いた問題出題で検証</li>
+      </ul>
+      <p class="note">※ Q&A：再帰構造固有の問題ではなく「難しい」と感じることが障壁。再帰構造を学習者が説明できるかは未検証。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 12. 例発表：モブプログラミング                              -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">高等学校情報科におけるモブプログラミングのグループ構成が理解度・協働認識に及ぼす影響</h3>
+      <div class="two-col">
+        <div class="col">
+          <h3>実験</h3>
+          <ul style="font-size:0.72em;">
+            <li>作業認識尺度を用い、MP 30分（役割交代5分）で実施</li>
+            <li>ドライバ・ナビゲータ（レビュアー）を交代</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>結果</h3>
+          <ul style="font-size:0.72em;">
+            <li>理解度が均一でないグループは得点の伸びが大きかった（初期得点の影響も）</li>
+            <li>協働アンケートで互恵懸念が低下傾向</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 13. 招待公演：奥山晴彦先生（ASA声明）                       -->
+    <!-- ============================================================= -->
+    <section data-background-color="#f4f7fb">
+      <span class="tag">招待公演</span>
+      <h2 style="font-size:1em;">統計的有意性に関する議論</h2>
+      <p style="text-align:center;">発表者：奥山晴彦 先生</p>
+      <ul style="font-size:0.75em;">
+        <li>「有意かどうか」がゲーム化している→「有意」と言いたいだけではない</li>
+        <li>p値の正しい理解：帰無仮説が正しいことを示さない。「帰無仮説の下で、実際の測定値またはそれより珍しい値が生じる確率」</li>
+        <li>Anscombeの例：散布図は全然違っても、平均・分散・相関係数は同じになりうる</li>
+      </ul>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 14. セッション3 タイトル                                     -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1.1em;">セッション3（8/20）</h2>
+      <p style="text-align:center;">LLMを活用した学習支援・個別最適化・リフレクション支援</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 15. 例発表：LLMと個別最適問題推薦                           -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">学習者プロファイルとフロー理論に基づくLLMによる個別最適な問題推薦の提案と予備的検証</h3>
+      <ul style="font-size:0.75em;">
+        <li>現在のアダプティブラーニングはパラメータ推定が高コストで、学習者の主観的な困難を反映しにくい</li>
+        <li>「自信度」「挑戦度」を主観的な困難度として捉え、両者のギャップが0になるように設計</li>
+      </ul>
+      <p class="note">※ Q&A：自信度と挑戦度にはそもそもギャップがあるか？問題解くのに求められる視点が挑戦度を上げ、自信度を下げる傾向。</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 16. セッション4 タイトル                                     -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1.1em;">セッション4（8/20）</h2>
+      <p style="text-align:center;">バイブコーディングとLLMの教育的影響</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 17. 例発表：バイブコーディング                              -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究・実践</span>
+      <h3 style="font-size:0.85em;">バイブコーディングによる情報システム開発演習設計と開発過程分析</h3>
+      <div class="two-col">
+        <div class="col">
+          <h3>背景</h3>
+          <ul style="font-size:0.72em;">
+            <li>プログラミング実装ではなく「上流工程」を学習。履修済み者を対象にプロダクトデザイン部分を習得</li>
+            <li>先行研究：バイブコーディングがアイデアの収束（人間のアイデアの阻害）をもたらす可能性</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>関連テーマ</h3>
+          <ul style="font-size:0.72em;">
+            <li>バイブコーディング体験による非熟練者のアプリ制作意欲への効果（ソフトウェアの民主化）</li>
+            <li>「よいプロンプトの書き方」は妥当か？→ LLMの非決定性により、日本語プログラミングにはなれない</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 18. 招待講演2：飯吉透先生（AIと教育）                       -->
+    <!-- ============================================================= -->
+    <section data-background-gradient="#e07a2f -> #b8541f" data-background-color="#e07a2f">
+      <h2 style="color:#fff;">招待講演2</h2>
+      <p style="text-align:center; color:#fff6ee;">飯吉透 先生（京都大学）／AIと教育・未来</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 19. 飯吉先生の要点                                           -->
+    <!-- ============================================================= -->
+    <section>
+      <h3 style="font-size:0.9em;">AIと教育：主なポイント</h3>
+      <div class="two-col">
+        <div class="col">
+          <h3>課題</h3>
+          <ul style="font-size:0.68em;">
+            <li>エントリーレベルの仕事が奪われ、育成機能が失われる可能性</li>
+            <li>report・筆記試験の信頼性の低下</li>
+            <li>汎用的な知的能力はAIが代替</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>教育がやること</h3>
+          <ul style="font-size:0.68em;">
+            <li>個人の知識基盤を盤石に（砂上の楼閣にするな）</li>
+            <li>AIの出力を「自分のもの」にするプロセスが必要</li>
+            <li>重要になるのは「学びを設計する力」（ハンドルを握るのは人間）</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">概念：思考する道具 vs 思考を促す道具 / パフォーマンス・ツール vs プロセス・ツール / Effect with Tools vs Effect of Tools</p>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 20. パネルディスカッション                                  -->
+    <!-- ============================================================= -->
+    <section>
+      <h2 style="font-size:1em;">パネルディスカッション</h2>
+      <p style="text-align:center;">コーディネーター：梶田将司（名古屋大学）</p>
+      <div class="two-col">
+        <div class="col">
+          <h3>パネリスト</h3>
+          <ul style="font-size:0.68em;">
+            <li>飯吉透（京都大学）</li>
+            <li>奥村晴彦（三重大学名誉教授）</li>
+            <li>稲垣知宏（広島大学）</li>
+            <li>高木正側（電気通信大学）</li>
+            <li>竹村治雄（教育テック大学院大学）</li>
+            <li>渡辺博芳（電気通信大学）</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>議論されたトピック</h3>
+          <ul style="font-size:0.68em;">
+            <li>AIは1990年代のWeb転換と同じ転換点か？</li>
+            <li>学習者と教育資源の間に入ると大学教育がどう変わるか</li>
+            <li>2035年のLMS（WebCT）はどうなっているか</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 21. セッション5〜7 タイトル                                 -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1em;">セッション5・6・7（8/21）</h2>
+      <ul style="font-size:0.72em; text-align:left; display:block; margin:0 auto; width:max-content;">
+        <li><strong>セッション5</strong> — 生成AIと批判的思考・情報Ⅰ必履修化による副教材理解度・教員・生徒のAI利用全国調査</li>
+        <li><strong>セッション6</strong> — データサイエンス教材・電気回路シミュレータ・ニューラルネットワーク教材</li>
+        <li><strong>セッション7</strong> — 対面とオンデマンドの交互実施型授業・メディアリテラシー（フェイクニュース演習）・教師判断の「見える化」</li>
+      </ul>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 22. 例発表：批判的思考への影響                             -->
+    <!-- ============================================================= -->
+    <section>
+      <span class="tag">研究</span>
+      <h3 style="font-size:0.85em;">生成AI利用が大学生の批判的思考に与える影響（認知的オフローディングとAIリテラシー）</h3>
+      <ul style="font-size:0.75em;">
+        <li>AI使用増加は思考への依存・批判的思考を低下させるか？→ 日常化により一定の限界理解で批判的に使える側面</li>
+        <li>他の情報源とAIを照し合わせるほど批判的思考能力が高い傾向</li>
+        <li>認知的オフローディングは高頻度使用者の方が高め。議論は「量」から「質」へ移行</li>
+      </ul>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 23. ポスターセッション                                      -->
+    <!-- ============================================================= -->
+    <section data-background-color="#1e2733">
+      <h2 style="font-size:1em;">ポスターセッション（一部）</h2>
+      <ul style="font-size:0.68em; text-align:left; display:block; margin:0 auto; width:max-content;">
+        <li>生成AIで探究的なサイクルを支援するオンラインデータサイエンス教材（PPDACが1ループしか回せていない）</li>
+        <li>ログイン操作とセキュリティ総合学習指導（id/pwの入力前確認・伏せ字理解・守る→まもる）</li>
+        <li>3DアニメーションツールによるC言語理解促進ツールの開発</li>
+        <li>人間中心設計に基づく「コミュニケーションと情報デザイン」の作品評価（評価の閾値が定まらない）</li>
+        <li>高専でのプログラミング教育における知識構成型ジグソー法の効果検証</li>
+      </ul>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 24. クロージング・授賞式                                    -->
+    <!-- ============================================================= -->
+    <section data-background-gradient="#1f3b6f -> #2a5caa" data-background-color="#1f3b6f">
+      <h2 style="color:#fff;">クロージング・授賞式</h2>
+      <p style="text-align:center; color:#e8eefc;"><strong>来年度SSS開催地 → 仙台！！</strong></p>
+      <p style="text-align:center; color:#cdd8ee;">Summer Symposium in Setouchi → Summer Symposium in Sendai</p>
+      <p style="text-align:center; color:#cdd8ee;">盛会であった。おうちに帰るまでがSSS。</p>
+    </section>
+
+  </div>
+</div>
+
+<!-- reveal.js スクリプト（CDN） -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    transition: 'slide',
+    backgroundTransition: 'fade',
+    width: 1280,
+    height: 720,
+    margin: 0.08,
+    plugins: []
+  });
+</script>
 </body>
 </html>
