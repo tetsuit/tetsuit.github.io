@@ -19,7 +19,7 @@
 
 .reveal .subtitle {
   color: #d6deec;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .reveal ul {
@@ -27,6 +27,7 @@
 }
 
 .reveal .two-col {
+  padding-top: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5em;
@@ -70,4 +71,10 @@
 
 .br_span{
   display: inline-block;
+}
+
+.author{
+  font-size: 0.5em;
+  padding-right: 10%;
+  text-align: right;
 }
