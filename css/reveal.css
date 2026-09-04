@@ -1,7 +1,7 @@
 :root {
   --r-heading-font: "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
   --r-body-font: "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
-  --r-primary-color: #5b9dff;
+  --r-primary-color: #7ebea5;
   --r-accent-color: #e07a2f;
 }
 
@@ -19,7 +19,7 @@
 
 .reveal .subtitle {
   color: #d6deec;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .reveal ul {
@@ -46,7 +46,7 @@
   border-radius: 0.5em;
   background: var(--r-primary-color);
   color: #08121f;
-  font-size: 0.4em;
+  font-size: 0.6em;
   font-weight: bold;
   margin-bottom: 0.3em;
 }
