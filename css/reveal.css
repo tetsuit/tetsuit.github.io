@@ -7,7 +7,7 @@
 
 .reveal section {
   text-align: left;
-  font-size: 0.62em;
+  font-size: 1em;
   color: #f2f5fb;
 }
 
@@ -19,7 +19,7 @@
 
 .reveal .subtitle {
   color: #d6deec;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 
 .reveal ul {
@@ -35,11 +35,12 @@
 
 .reveal .col h3 {
   text-align: left;
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: #ffffff;
 }
 
 .reveal .tag {
+  font-family: "DotGothic16";
   display: inline-block;
   padding: 0.1em 0.6em;
   border-radius: 0.5em;
@@ -65,4 +66,8 @@
 
 .reveal .progress {
   color: var(--r-accent-color);
+}
+
+.br_span{
+  display: inline-block;
 }

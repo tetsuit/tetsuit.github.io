@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/night.min.css" id="theme">
   <link rel="stylesheet" href="css/reveal.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="reveal">
@@ -17,10 +20,9 @@
     <!-- ============================================================= -->
     <!-- 1. タイトルスライド                                           -->
     <!-- ============================================================= -->
-    <section data-background-gradient="#1f3b6f -> #2a5caa" data-background-color="#1f3b6f">
-      <h1 style="color:#fff;">SSS2026 <span style="font-size:0.55em;">@Hiroshima Univ</span></h1>
-      <p class="subtitle" style="color:#e8eefc;">Summer Symposium in Setouchi 2026<br>2026年8月19日(水) – 21日(金) / 広島大学</p>
-      <p class="note" style="color:#cdd8ee;">※ これはスライドの雛形（テンプレート）です。各スライドの内容・枚数は必要に応じて追加・編集してください。</p>
+    <section data-background-gradient="#016648 -> #316650" data-background-color="#016648">
+      <h1 style="color:#fff;">SSS2026<span style="font-size: 0.4em; margin-top: -10%;"><span class="br_span">@Hiroshima Univ</span></span></h1>
+      <p class="subtitle" style="color:#e8eefc;">Summer Symposium in Setouchi 2026<span class="br_span">2026年8月19日(水) – 21日(金) / 広島大学</span></p>
     </section>
 
     <!-- ============================================================= -->
@@ -28,16 +30,16 @@
     <!-- ============================================================= -->
     <section>
       <h2>このイベントについて</h2>
-      <div class="two-col">
         <div class="col">
           <span class="tag">What</span>
           <ul>
-            <li>Setouchi・Techに関する研究の交換会</li>
+            <li>情報教育に関する研究・情報の交換会</li>
             <li>発表・ポスター・パネルディスカッションを含む</li>
           </ul>
-          <span class="tag">Message</span>
+          <span class="tag">Who</span>
           <ul>
-            <li>Setouchi・Techを「教える」だけでなく、<br>自由で平和な社会の形成に向けた教育を行う必要があり、<br>新たな知の創造の場としたい</li>
+            <li>情報処理学会</li>
+            <li>コンピュータと教育グループ</li>
           </ul>
         </div>
         <div class="col">
@@ -45,10 +47,9 @@
           <ul>
             <li>会期：8/19 – 8/21（3日間）</li>
             <li>会場：広島大学</li>
-            <li>来年度開催地：仙台（SSS2036）</li>
+            <li>毎年8月(後半)・Sのつく開催地で開催</li>
           </ul>
         </div>
-      </div>
     </section>
 
     <!-- ============================================================= -->
@@ -56,11 +57,26 @@
     <!-- ============================================================= -->
     <section>
       <h2>全体アジェンダ</h2>
-      <ul style="font-size:0.7em;">
-        <li><strong>8/19</strong> — オープニング（渡辺健次先生）→ セッション1 → 招待公演（奥山晴彦先生）</li>
-        <li><strong>8/20</strong> — セッション2 / 3 / 4 → ポスターセッション → 招待講演2（飯吉透先生）→ パネルディスカッション</li>
-        <li><strong>8/21</strong> — セッション5 / 6 / 7 → クロージング・授賞式</li>
-      </ul>
+      <ol style="font: size 0.9em;">
+        <li><strong>8/19</strong>
+          <ul>
+            <li>オープニング</li>
+            <li>セッション1</li>
+            <li>招待公演1</li>
+          </ul>
+        <li><strong>8/20</strong>
+          <ul>
+            <li>セッション2 / 3 / 4 </li>
+            <li>ポスターセッション</li>
+            <li>招待講演2</li>
+            <li>パネルディスカッション</li>
+          </ul>
+        <li><strong>8/21</strong>
+          <ul>
+            <li>セッション5 / 6 / 7</li>
+            <li>クロージング・授賞式</li>
+          </ul>
+      </ol>
       <p class="note">※ 各セッションは「研究（発表）」と「実践（授業報告）」に分かれています。</p>
     </section>
 
@@ -71,15 +87,13 @@
       <span class="tag">8/19 · オープニング</span>
       <h2>オープニングセッション</h2>
       <p style="text-align:center;">発表者：渡辺健次 先生</p>
-      <div class="two-col">
         <div class="col">
           <span class="tag">テーマ</span>
           <ul>
-            <li>Setouchi・Techを教えるだけでなく、<br>自由で平和な社会の形成に向けた教育を行う必要性</li>
+            <li>Setouchi・Techを教えるだけでなく、<span class="br_span">自由で平和な社会の形成に向けた教育を行う必要性</span></li>
             <li>本プログラムを新たな知の創造の場としたい</li>
           </ul>
         </div>
-      </div>
     </section>
 
     <!-- ============================================================= -->
@@ -101,7 +115,7 @@
           <h3>背景</h3>
           <ul style="font-size:0.72em;">
             <li>これまでの実践報告は各領域焦点型→4領域の横断的研究が不足</li>
-            <li>2025受験生：プログラミングは相対的に有用、NWは苦手<br>（「わからない言葉がわからない言葉で説明される」）</li>
+            <li>2025受験生：プログラミングは相対的に有用、NWは苦手<span class="br_span">（「わからない言葉がわからない言葉で説明される」）</span></li>
           </ul>
         </div>
         <div class="col">
@@ -216,7 +230,7 @@
     <!-- ============================================================= -->
     <!-- 13. 招待公演：奥山晴彦先生（ASA声明）                       -->
     <!-- ============================================================= -->
-    <section data-background-color="#f4f7fb">
+    <section data-background-color="#1e2733">
       <span class="tag">招待公演</span>
       <h2 style="font-size:1em;">統計的有意性に関する議論</h2>
       <p style="text-align:center;">発表者：奥山晴彦 先生</p>
